@@ -1,0 +1,340 @@
+swagger: "2.0"
+info:
+  description: "ITPS API"
+  version: 1.0.0
+  title: Swagger ITPS API YAML
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    email: "apiteam@swagger.io"
+  license:
+    name: Apache 2.0
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+basePath: /v1
+tags:
+  - name: account
+    description: ITPS account
+  - name: channel
+    description: ITPS channel    
+  - name: currentchannelstate
+    description: ITPS CurrentChannelState 
+  - name: settlement
+    description: ITPS Settlement 
+  - name: withdraw
+    description: ITPS withdraw 
+schemes:
+  - http
+paths:
+  /accounts:
+    post:
+      tags:
+        - account
+      summary: Add a new account to ITPS
+      x-swagger-router-controller: SampleController
+      description: ""
+      operationId: addAccount
+      consumes:
+        - application/json
+        - application/xml
+      produces:
+        - application/xml
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          description: Account object that needs to be added to ITPS
+          required: true
+          schema:
+            $ref: "#/definitions/Account"
+      responses:
+        "405":
+          description: Invalid input
+    get:
+      tags:
+        - account
+      summary: Finds account by ExtAccountId
+      description: Get accounts per ExtAccountId
+      operationId: findAccountByExtAccountId
+      consumes:
+        - application/xml
+        - application/json
+        - multipart/form-data
+        - application/x-www-form-urlencoded
+      produces:
+        - application/xml
+        - application/json
+      parameters:
+        - name: ext_account_id
+          in: query
+          description: External Account Id (ExtAccountId, must be unique) 
+          required: true
+          type: string
+      responses:
+        "200":
+          description: successful operation
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/Account"
+        "400":
+          description: Invalid status value
+
+  /channels:
+    get:
+      tags:
+        - channel
+      summary: Finds channel by ExtAccountId
+      description: Get channel per ExtAccountId
+      operationId: findChannelByExtAccountId
+      consumes:
+        - application/xml
+        - application/json
+        - multipart/form-data
+        - application/x-www-form-urlencoded
+      produces:
+        - application/xml
+        - application/json
+      parameters:
+        - name: ext_account_id
+          in: query
+          description: External Account Id (ExtAccountId, must be unique) 
+          required: true
+          type: string
+      responses:
+        "200":
+          description: successful operation
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/ChannelSnapshot"
+        "400":
+          description: Invalid status value
+
+  /currentchannelstate:
+    post:
+      tags:
+        - currentchannelstate
+      summary: Add a new current channel state to ITPS
+      x-swagger-router-controller: SampleController
+      description: ""
+      operationId: addcurrentchannelstate
+      consumes:
+        - application/json
+        - application/xml
+      produces:
+        - application/xml
+        - application/json
+      parameters:
+        - in: body
+          name: CurrentChannelStateToPost 
+          description: Current Channel State object that needs to be added to ITPS
+          required: true
+          schema:
+            $ref: "#/definitions/PostCurrentChannelState"
+      responses:
+        "405":
+          description: Invalid input
+        "200":
+          description: successful operation
+          schema:
+            $ref: "#/definitions/CurrentChannelState"          
+
+    get:
+      tags:
+        - currentchannelstate
+      summary: Finds current channel state by ExtAccountId
+      description: Get current channel state per ExtAccountId
+      operationId: findccs
+      consumes:
+        - application/xml
+        - application/json
+        - multipart/form-data
+        - application/x-www-form-urlencoded
+      produces:
+        - application/xml
+        - application/json
+      parameters:
+        - name: ext_account_id
+          in: query
+          description: External Account Id (ExtAccountId, must be unique) 
+          required: true
+          type: string
+      responses:
+        "200":
+          description: successful operation
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/CurrentChannelState"
+        "400":
+          description: Invalid status value
+
+  /settlement:
+    post:
+      tags:
+        - settlement
+      summary: Add a new current channel state to ITPS
+      x-swagger-router-controller: SampleController
+      description: ""
+      operationId: settlement
+      consumes:
+        - application/json
+        - application/xml
+      produces:
+        - application/xml
+        - application/json
+      parameters:
+        - in: body
+          name: CurrentChannelStateToPost 
+          description: settlement
+          required: true
+          schema:
+            $ref: "#/definitions/PostSettlement"
+      responses:
+        "405":
+          description: Invalid input
+        "200":
+          description: successful operation
+          schema:
+            $ref: "#/definitions/ChannelSnapshot"          
+          
+  /withdraw:
+    post:
+      tags:
+        - withdraw
+      summary: withdraw ITPS
+      x-swagger-router-controller: SampleController
+      description: ""
+      operationId: withdraw
+      consumes:
+        - application/json
+        - application/xml
+      produces:
+        - application/xml
+        - application/json
+      parameters:
+        - name: ext_account_id
+          in: query
+          description: External Account Id (ExtAccountId, must be unique) 
+          required: true
+          type: string
+      responses:
+        "405":
+          description: Invalid input
+        "200":
+          description: successful operation
+                      
+          
+
+securityDefinitions:
+  api_key:
+    type: apiKey
+    name: api_key
+    in: header
+definitions:
+
+  ApiResponse:
+    properties:
+      code:
+        type: integer
+        format: int32
+      type:
+        type: string
+      message:
+        type: string
+    xml:
+      name: "##default"
+      
+  Account:
+    properties:
+      ext_account_id:
+        type: string
+      user_public_key:
+        type: string
+    xml:
+      name: Tag   
+      
+  ChannelSnapshot:
+    properties:
+      ext_account_id:
+        type: string
+      user_public_key:
+        type: string
+      channel_balance:
+        type: number
+        format: double
+      channel_capacity:
+        type: number
+        format: double
+      sender_withdrawable_amount:
+        type: number
+        format: double
+      channel_status:
+        type: string
+        description: channel status 
+        enum:
+          - deploying
+          - ready
+          - gracePeriod
+      last_settled_nonce:
+        type: integer
+      available_for_settlement_to_sender:
+        type: number
+        format: double
+      available_for_settlement_to_receiver:
+        type: number
+        format: double  
+        
+  CurrentChannelState:
+    type: object
+    properties:
+      nonce:
+        type: string
+      total_paid_to_receiver:
+        type: number
+        format: double
+      receiver_signature:
+        type: string
+      sender_signature:
+        type: string  
+    example:
+      nonce: 1
+      total_paid_to_receiver: 7.8
+      receiver_signature: receiver_signature
+      sender_signature: sender_signature
+    xml:
+      name: Tag    
+      
+  PostCurrentChannelState:
+    type: object
+    properties:
+      ccs:
+        type: array
+        items:
+          $ref: '#/definitions/CurrentChannelState'
+      ext_account_id:
+        type: string
+      transfer_amount:
+        type: number
+        format: double        
+    xml:
+      name: Tag 
+      
+  PostSettlement:
+    type: object
+    properties:
+      ccs:
+        type: array
+        items:
+          $ref: '#/definitions/CurrentChannelState'
+      ext_account_id:
+        type: string
+      withdrawal-amount:
+        type: number
+        format: double        
+    xml:
+      name: Tag      
+  
+      
+externalDocs:
+  description: Find out more about Swagger
+  url: "http://swagger.io"

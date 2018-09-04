@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/blockchain/service/blockchain_service.py" line="205" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5fe6dc9-08f3-462d-b1a3-da1567dc8dd6" name="Default Changelist" comment="add abi print">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/service/endpoints/service_ccs_namespace.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/service/endpoints/service_ccs_namespace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/service/endpoints/service_settlement_namespace.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/service/endpoints/service_settlement_namespace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blockchain/common/bc_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/blockchain/common/bc_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blockchain/service/adp_channel.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/blockchain/service/adp_channel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blockchain/service/adp_channel_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/blockchain/service/adp_channel_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/models/ccs_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/models/ccs_model.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1542634314">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="24" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Hoi4 file" value="1" />
+          <entry key="Python" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="21" />
+          <entry key="py" value="557" />
+          <entry key="txt" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Hoi4 file" value="7" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="557" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="462507273">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="dockerfile" value="1" />
+          <entry key="json" value="6" />
+          <entry key="py" value="756" />
+          <entry key="txt" value="13" />
+          <entry key="yaml" value="1" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Hoi4 file" value="13" />
+          <entry key="JSON" value="6" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="756" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="15" />
+          <entry key="dummy" value="32" />
+          <entry key="json" value="1" />
+          <entry key="py" value="18978" />
+          <entry key="txt" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Hoi4 file" value="28" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="Python" value="18993" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1679784603">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="379" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="379" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="26" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1502546664">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1605" />
+          <entry key="txt" value="95" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="95" />
+          <entry key="Python" value="1605" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="48" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="48" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-553335083">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="659" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="659" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="198" selection-start-line="198" selection-end-line="198" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#1437#1921#0" />
+                <element signature="e#2985#4960#0" />
+                <element signature="e#3009#3176#0" />
+                <element signature="e#3195#3350#0" />
+                <element signature="e#4998#5964#0" />
+                <element signature="e#5492#5531#0" />
+                <element signature="e#6024#6214#0" />
+                <element signature="e#6832#6976#0" />
+                <element signature="e#7139#7339#0" />
+                <element signature="e#7372#7498#0" />
+                <element signature="e#7641#7738#0" />
+                <element signature="e#7624#7652#0" />
+                <element signature="e#8277#9096#0" />
+                <element signature="e#14187#14190#0" />
+                <element signature="e#17361#17665#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blockchain/common/bc_helper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="85" column="85" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="85" />
+              <folding>
+                <element signature="e#918#1004#0" />
+                <element signature="e#1452#1490#0" />
+                <element signature="e#1566#1612#0" />
+                <element signature="e#1941#2075#0" />
+                <element signature="e#3530#4168#0" />
+                <element signature="e#3800#3867#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_manager_abi.len</find>
+      <find>BlockChainService</find>
+      <find>BCMonitorService</find>
+      <find>ADPChannelManagerBC</find>
+      <find>bc_monitor.create BlockChainServic</find>
+      <find>BlockChainH</find>
+      <find>create_message_sha3</find>
+      <find>provider</find>
+      <find>createChannel buildTransaction pa</find>
+      <find>buildTransaction</find>
+      <find>eateChannel buildTransaction para</find>
+      <find>channelmanager_txn = channel_manager.functions.creat</find>
+      <find>__________________GAS_PRICE___________________________</find>
+      <find>gas</find>
+      <find>blockchain_service</find>
+      <find>call</find>
+      <find>GAS_LIMIT_CHANNEL_CREATION</find>
+      <find>pk_sender</find>
+      <find>c24</find>
+      <find>-&gt; adp_channel_manager_abi</find>
+      <find>TEST_API_BASE_URL</find>
+      <find>pk:</find>
+      <find>update_channel_db</find>
+      <find>get_from_url</find>
+      <find>ecrecover</find>
+      <find>get</find>
+      <find>signHash</find>
+      <find>payload['ccs']['sender_signature']</find>
+      <find>gen_signature-&gt;sha3_mes</find>
+      <find>sender_signature</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>self.web3</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Exilion\Projects\itps-api\src\state</dir>
+      <dir>C:\Exilion\Projects\itps-api</dir>
+      <dir>C:\Exilion\Projects\itps-bis\src\api\service</dir>
+      <dir>C:\Exilion\Projects\itps-api-staging\src\business</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/monitoring/db_monitoring.py" />
+        <option value="$PROJECT_DIR$/src/call_back/call_back_service.py" />
+        <option value="$PROJECT_DIR$/src/state/serverstate.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/common/consts.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/common/utils/utils_json.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/src/database/models/cahnnel_model.py" />
+        <option value="$PROJECT_DIR$/src/database/models/withdraw_model.py" />
+        <option value="$PROJECT_DIR$/src/api/service/endpoints/service_channels_namespace.py" />
+        <option value="$PROJECT_DIR$/src/database/__init__.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/common/utils/utils.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/common/setting.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/common/utils/utils_bc.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/service/event_monitor.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/common/ABI/MyToken.json" />
+        <option value="$PROJECT_DIR$/src/database/models/base_model.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/common/ABI/MyTokenABI.json" />
+        <option value="$PROJECT_DIR$/src/business/business.py" />
+        <option value="$PROJECT_DIR$/src/database/models/bc_monitor_model.py" />
+        <option value="$PROJECT_DIR$/src/database/models/channel_model.py" />
+        <option value="$PROJECT_DIR$/src/business/channel.py" />
+        <option value="$PROJECT_DIR$/src/api/service/serializers.py" />
+        <option value="$PROJECT_DIR$/src/common/consts.py" />
+        <option value="$PROJECT_DIR$/src/database/models/account_model.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/service/erc20token.py" />
+        <option value="$PROJECT_DIR$/src/database/models/token_model.py" />
+        <option value="$PROJECT_DIR$/src/utils/utils_consts.py" />
+        <option value="$PROJECT_DIR$/debugsetting.txt" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/service/adp_channel.py" />
+        <option value="$PROJECT_DIR$/src/database/models/settlement_model.py" />
+        <option value="$PROJECT_DIR$/src/database/models/ccs_model.py" />
+        <option value="$PROJECT_DIR$/src/business/token.py" />
+        <option value="$PROJECT_DIR$/src/business/account.py" />
+        <option value="$PROJECT_DIR$/src/common/bc_commands.py" />
+        <option value="$PROJECT_DIR$/src/database/models/command_model.py" />
+        <option value="$PROJECT_DIR$/src/api/service/endpoints/service_accounts_namespace.py" />
+        <option value="$PROJECT_DIR$/src/api/service/endpoints/service_withdraw_namespace.py" />
+        <option value="$PROJECT_DIR$/src/monitoring/db_monitor.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/service/blockchain_service.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/service/rpc_provider.py" />
+        <option value="$PROJECT_DIR$/src/monitoring/bc_monitoring.py" />
+        <option value="$PROJECT_DIR$/src/callback/call_back_service.py" />
+        <option value="$PROJECT_DIR$/src/common/settings_production.py" />
+        <option value="$PROJECT_DIR$/block_chain_integration_service.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/service/adp_channel_manager.py" />
+        <option value="$PROJECT_DIR$/src/api/service/endpoints/service_settlement_namespace.py" />
+        <option value="$PROJECT_DIR$/src/common/settings.py" />
+        <option value="$PROJECT_DIR$/src/api/service/endpoints/service_ccs_namespace.py" />
+        <option value="$PROJECT_DIR$/src/blockchain/common/bc_helper.py" />
+        <option value="$PROJECT_DIR$/tests.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="4" />
+    <option name="width" value="1377" />
+    <option name="height" value="739" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="itps-tester-staging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itps-tester-staging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itps-tester-staging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itps-tester-staging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itps-tester-staging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itps-tester-staging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../itps-api" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Exilion\Projects\itps-bis\src\business" />
+      <recent name="C:\Exilion\Projects\itps-api" />
+      <recent name="C:\Exilion\Projects\itps-api\src\database\models" />
+      <recent name="C:\Exilion\Projects\itps-api\src\common" />
+      <recent name="C:\Exilion\Projects\itps-api\src\monitoring" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Exilion\Projects\itps-api\src\business" />
+      <recent name="C:\Exilion\Projects\itps-api" />
+      <recent name="C:\Exilion\Projects\itps-api\src" />
+      <recent name="C:\Exilion\Projects\ITPS\src\common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tests">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ITPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ITPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="block_chain_integration_service" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ITPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/block_chain_integration_service.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db_monitoring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ITPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/monitoring" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Exilion\Projects\itps-api\src\monitoring\bc_monitoring.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ITPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.app (1)" />
+      <item itemvalue="Python.db_monitoring" />
+      <item itemvalue="Python.block_chain_integration_service" />
+      <item itemvalue="Python.tests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tests" />
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.block_chain_integration_service" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.db_monitoring" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5fe6dc9-08f3-462d-b1a3-da1567dc8dd6" name="Default Changelist" comment="" />
+      <created>1533584116894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533584116894</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add comments">
+      <created>1535338012191</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535338012191</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add comments">
+      <created>1535339519071</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535339519071</updated>
+    </task>
+    <task id="LOCAL-00003" summary="run timer">
+      <created>1535339963610</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535339963610</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add trace">
+      <created>1535341315706</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535341315706</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove trace">
+      <created>1535342045663</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535342045663</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add trace">
+      <created>1535342336518</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535342336518</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add logs for create channel">
+      <created>1535370729578</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535370729578</updated>
+    </task>
+    <task id="LOCAL-00008" summary="one dinamic param">
+      <created>1535380463692</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1535380463692</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18824404" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.63318455" weight="0.3409836" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67113096" weight="0.38196722" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.6875" visible="true" weight="0.7491803" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17868853" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.32886904" side_tool="true" weight="0.30983606" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26264882" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.63318455" weight="0.10819672" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67113096" weight="0.31311476" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6875" visible="true" weight="0.2885246" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17868853" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.32886904" side_tool="true" weight="0.30983606" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add comments" />
+    <MESSAGE value="run timer" />
+    <MESSAGE value="remove trace" />
+    <MESSAGE value="add trace" />
+    <MESSAGE value="add logs for create channel" />
+    <MESSAGE value="one dinamic param" />
+    <option name="LAST_COMMIT_MESSAGE" value="one dinamic param" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/resources/account.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/business/business.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/state/serverstate.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/callback/rx_call_back_service.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/callback/rx_call_back_service.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/callback/rx_call_back_service.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/callback/rx_call_back_service.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/callback/rx_call_back_service.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/blockchain/common/utils/utils_bc.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/monitoring/bc_monitoring.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/api/service/endpoints/service_withdraw_namespace.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/api/service/endpoints/service_withdraw_namespace.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/api/service/endpoints/service_withdraw_namespace.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/block_chain_integration_service.py</url>
+          <line>226</line>
+          <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/block_chain_integration_service.py</url>
+          <line>224</line>
+          <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/blockchain/service/adp_channel_manager.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/block_chain_integration_service.py</url>
+          <line>222</line>
+          <option name="timeStamp" value="479" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/api/service/endpoints/service_settlement_namespace.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/blockchain/common/bc_helper.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/blockchain/common/bc_helper.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/blockchain/common/bc_helper.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self._app.config['SQLALCHEMY_DATABASE_URI']" />
+        <watch expression="db" />
+        <watch expression="data.get('ccs')" />
+        <watch expression="ccs_request['nonce']" />
+        <watch expression="request_data.get('user_public_key')" />
+        <watch expression="event.args" />
+        <watch expression="event.args.contractAddress" />
+        <watch expression="__py_debug_temp_var_1074188675.from" />
+        <watch expression="payload" />
+        <watch expression="event_arg_j[1:-1]" />
+        <watch expression="event.args.from" />
+        <watch expression="event.args.to" />
+        <watch expression="event.event" />
+        <watch expression="event.args.from" />
+        <watch expression="from_block[0].latest_block" />
+        <watch expression="channel[0].channel_balance" />
+        <watch expression="channel.channel_balance" />
+        <watch expression="e" />
+        <watch expression="latest_block_number_from_db.latest_block" />
+        <watch expression="__py_debug_temp_var_518069651.fromAddress" />
+        <watch expression="self.token_address" />
+        <watch expression="erc20.functions.decimals.call()" />
+        <watch expression="erc20.functions" />
+        <watch expression="__py_debug_temp_var_982569245.decimals" />
+        <watch expression="erc20.functions.decimals().call()" />
+        <watch expression="json.load(ccs_request)" language="Python" />
+        <watch expression="json.dumps(ccs_request)" />
+        <watch expression="ext_account_id" />
+        <watch expression="post_account_url" />
+        <watch expression="signed_message.'r' (13731328)" />
+        <watch expression="signed_message.v" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>len(receiver_signature)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>event.args[1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>event.args[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>event.args.from</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>event.args._from</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>data.get['ccs']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/database/models/account_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain/common/setting.py" />
+    <entry file="file://$PROJECT_DIR$/src/blockchain/common/consts.py" />
+    <entry file="file://$PROJECT_DIR$/src/blockchain/common/utils/utils_bc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain/common/utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="103" selection-start-line="103" selection-end-line="105" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/models/settlement_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/eth_account/signers/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/jsonschema/_validators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="387" selection-start-line="387" selection-end-line="387" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/sqlalchemy/orm/attributes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="239" selection-start-line="239" selection-end-line="239" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/business/channel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/business/token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/business/account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain/service/erc20token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/bc_commands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/models/command_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/repeated_timer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="84" selection-start-line="84" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/monitoring/db_monitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/web3/utils/datatypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/sqlalchemy/orm/persistence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="1065" selection-start-line="1065" selection-end-line="1065" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/models/bc_monitor_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/singleton_decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain/service/rpc_provider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="42" selection-start-line="42" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain/service/adp_channel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/monitoring/bc_monitoring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/callback/call_back_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain/service/blockchain_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="166" column="23" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="1812" selection-start-line="1812" selection-end-line="1812" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/settings_production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block_chain_integration_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/flask_restplus/resource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/flask/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/flask_restplus/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain/service/adp_channel_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#1371#1643#0" />
+            <element signature="e#1773#2128#0" />
+            <element signature="e#3201#3260#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/service/endpoints/service_withdraw_namespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/service/endpoints/service_accounts_namespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitbucket-pipelines.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="50" column="73" lean-forward="true" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/flask_restplus/marshalling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/service/endpoints/service_settlement_namespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="58" column="53" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/service/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/models/ccs_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="36" column="53" selection-start-line="34" selection-start-column="23" selection-end-line="36" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/web3/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain/common/utils/utils_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15113">
+          <caret line="911" selection-start-line="911" selection-end-line="911" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITPS/venv/Lib/site-packages/web3/utils/contracts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="143" column="35" selection-start-line="143" selection-start-column="35" selection-end-line="143" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="92" column="12" selection-start-line="92" selection-end-line="92" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/models/channel_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#186#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/utils_http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/service/endpoints/service_ccs_namespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="109" column="108" selection-start-line="109" selection-start-column="96" selection-end-line="109" selection-end-column="108" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blockchain/common/bc_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="85" column="85" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="85" />
+          <folding>
+            <element signature="e#918#1004#0" />
+            <element signature="e#1452#1490#0" />
+            <element signature="e#1566#1612#0" />
+            <element signature="e#1941#2075#0" />
+            <element signature="e#3530#4168#0" />
+            <element signature="e#3800#3867#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1437#1921#0" />
+            <element signature="e#2985#4960#0" />
+            <element signature="e#3009#3176#0" />
+            <element signature="e#3195#3350#0" />
+            <element signature="e#4998#5964#0" />
+            <element signature="e#5492#5531#0" />
+            <element signature="e#6024#6214#0" />
+            <element signature="e#6832#6976#0" />
+            <element signature="e#7139#7339#0" />
+            <element signature="e#7372#7498#0" />
+            <element signature="e#7641#7738#0" />
+            <element signature="e#7624#7652#0" />
+            <element signature="e#8277#9096#0" />
+            <element signature="e#14187#14190#0" />
+            <element signature="e#17361#17665#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

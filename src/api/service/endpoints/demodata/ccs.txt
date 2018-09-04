@@ -1,0 +1,11 @@
+{
+  "nonce": 3,
+  "total_paid_to_receiver": 2.8,
+  "receiver_signature": "receiver_signature",
+  "sender_signature": "sender_signature",
+  "channel_status": "ready",
+  "last_settled_nonce": 2,
+  "available_for_settlement_to_sender": 3.6,
+  "available_for_settlement_to_receiver": 5.4
+}
+

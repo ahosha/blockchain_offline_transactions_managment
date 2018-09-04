@@ -1,0 +1,16 @@
+[
+  {
+        "available_for_settlement_to_receiver": 3.8,
+        "available_for_settlement_to_sender": 5.9,
+        "channel_balance": 1.7,
+        "channel_capacity": 3.8,
+        "channel_contract_ethereum_address": "0x06823cbcf339a45fe6d9e6573df0748329674a0a08",
+        "channel_status": "ready",
+        "last_settled_nonce": 2,
+        "receiver_withdrawable_amount": 4.9,
+        "ext_account_id": "account1",
+        "sender_withdrawable_amount": 7.2
+  }
+]
+
+

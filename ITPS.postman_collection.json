@@ -1,0 +1,286 @@
+{
+	"info": {
+		"_postman_id": "c2d55fba-9b62-4f1e-a274-e770f2cfd499",
+		"name": "ITPS",
+		"description": "Instant Token Payment System API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"_postman_id": "cc88d18c-cfe9-41df-b4b2-28cde7db83ec",
+			"name": "http://127.0.0.1:4995/accounts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://127.0.0.1:4995/accounts?extuserid=account4",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4995",
+					"path": [
+						"accounts"
+					],
+					"query": [
+						{
+							"key": "extuserid",
+							"value": "account4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "743ef1ea-4866-4c77-9946-47da186530d1",
+			"name": "http://127.0.0.1:4995/accounts",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"accounts\": [\n        {\n            \"ethereum_public_address\": \"0x3d21a168c237067e9f889b6dbbc325401f1d93d8\",\n            \"extuserid\": \"account1\"\n        },\n        {\n            \"ethereum_public_address\": \"0xe79eef9b9388a4ff70ed7ec5bccd5b928ebb8bd1\",\n            \"extuserid\": \"account1\"\n        },\n        {\n            \"ethereum_public_address\": \"0x03823cbcf9a45fe6d9e6573df0748329674a0a0f\",\n            \"extuserid\": \"account1\"\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4995/accounts",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4995",
+					"path": [
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "34bba947-a018-47ea-a320-b32413736d7f",
+			"name": "http://127.0.0.1:4995/account",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://127.0.0.1:4995/account/account1/0x03823cbcf9a45fe6d9e6573df0748329674a0a0f",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4995",
+					"path": [
+						"account",
+						"account1",
+						"0x03823cbcf9a45fe6d9e6573df0748329674a0a0f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "9cedd777-74a5-48f4-9ed4-40a33d5f1dc5",
+			"name": "http://127.0.0.1:4995/channels",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://127.0.0.1:4995/channels?ext_account_id=ext_account_id",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4995",
+					"path": [
+						"channels"
+					],
+					"query": [
+						{
+							"key": "ext_account_id",
+							"value": "ext_account_id"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "6bad4f59-e558-433a-8db9-ddc728c329e5",
+			"name": "http://127.0.0.1:4995/channels",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"channels\": [\n        {\n\t\t\t\"ext_account_id\" : \"ext_account_id\",\n\t\t\t\"user_public_key\" : \"user_public_key\",\n\t\t\t\"channel_balance\" : \"1.7\",\n\t\t\t\"channel_capacity\" : \"3.8\",\n\t\t\t\"sender_withdrawable_amount\" : \"7.2\",\n\t\t\t\"receiver_withdrawable_amount\" : \"4.9\",\n\t\t\t\"channel_status\"  : \"ready\",\n\t\t\t\"last_settled_nonce\": \"2\",\n\t\t\t\"available_for_settlement_to_sender\": \"5.9\",\n\t\t\t\"available_for_settlement_to_receiver\": \"3.8\"\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4995/channels",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4995",
+					"path": [
+						"channels"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "270f0ee6-1105-4547-8a46-a39628b598f1",
+			"name": "http://127.0.0.1:4995/currentchannelctate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://127.0.0.1:4995/currentchannelctate",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4995",
+					"path": [
+						"currentchannelctate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "7a49d336-83be-453f-b93c-3b68f61737a4",
+			"name": "http://127.0.0.1:4995/currentchannelctate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"currentchannelstate\": [\r\n        {\r\n\t\t\t\"ext_account_id\" : \"ext_account_id\",\r\n\t\t\t\"transfer_amount\" : \"transfer_amount\",\r\n\t\t\t\"nonce\" : \"2\",\r\n\t\t\t\"total_paid_to_receiver\" : \"3.8\",\r\n\t\t\t\"receiver_signature\" : \"receiver_signature\",\r\n\t\t\t\"sender_signature\" : \"sender_signature\"\r\n        }\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4995/currentchannelctate",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4995",
+					"path": [
+						"currentchannelctate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "42772ef7-4f49-4f11-b271-3b2a25b46842",
+			"name": "http://127.0.0.1:4995/settlement",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"settlement\": [\r\n        {\r\n\t\t\t\"ext_account_id\" : \"ext_account_id\",\r\n\t\t\t\"withdrawal_amount\" : \"3.9\",\r\n\t\t\t\"ccs\" : {\r\n\t\t\t\t\"nonce\" : \"2\",\r\n\t\t\t\t\"total_paid_to_receiver\" : \"3.8\",\r\n\t\t\t\t\"receiver_signature\" : \"receiver_signature\",\r\n\t\t\t\t\"sender_signature\" : \"sender_signature\"\r\n\t\t\t}\r\n        }\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4995/settlement",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4995",
+					"path": [
+						"settlement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "4c7ec349-6398-4029-a1cf-4094c912cce8",
+			"name": "http://127.0.0.1:4995/withdraw",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"withdraws\": [\r\n        {\r\n\t\t\t\"ext_account_id\" : \"ext_account_id\"\r\n        }\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4995/withdraw?ext_account_id=ext_account_id",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4995",
+					"path": [
+						"withdraw"
+					],
+					"query": [
+						{
+							"key": "ext_account_id",
+							"value": "ext_account_id"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

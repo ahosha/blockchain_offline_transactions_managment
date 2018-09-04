@@ -1,0 +1,6 @@
+[
+  {
+    "ext_account_id": "account1",
+    "user_public_key": "0x579eef9b9388a4ff70ed7ec5bccd5b928ebb8bd8"
+  }
+]

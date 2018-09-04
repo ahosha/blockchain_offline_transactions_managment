@@ -1,0 +1,73 @@
+# This is a sample build configuration for Docker.
+# Check our guides at https://confluence.atlassian.com/x/O1toN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: atlassian/default-image:2
+
+pipelines:
+  branches:
+    staging:
+      - step:
+          # set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY as environment variables
+          name: Deploy to ECS
+          deployment: test   # set to test, staging or production
+          # trigger: manual  # uncomment to have a manual step
+          image: atlassian/pipelines-awscli
+          services:
+            - docker
+          script:
+            # AWS variables
+            - aws configure set AWS_ACCESS_KEY_ID ${AWS_ACCESS_KEY_ID}
+            - aws configure set AWS_SECRET_ACCESS_KEY ${AWS_SECRET_ACCESS_KEY}
+            - aws configure set REGION us-east-1
+            - export CONTAINER_NAME="bgc.itps"
+            - export IMAGE_NAME_API="310473455728.dkr.ecr.us-east-1.amazonaws.com/bgc.itps:api-stg"
+            - export IMAGE_NAME_BIS="310473455728.dkr.ecr.us-east-1.amazonaws.com/bgc.itps:bis-stg"
+            - export ECS_CLUSTER_NAME="itps"
+            - export ECS_SERVICE_NAME="itps_service"
+            - export ECS_TASK_NAME="itps_api"
+
+            - echo ${_SQLALCHEMY_DATABASE_HOST_}
+            - echo "${_SQLALCHEMY_DATABASE_HOST_}"
+            # Replace variables
+            - sed -i "s~_CLIENT_SYSTEM_BASE_URL_~${_CLIENT_SYSTEM_BASE_URL_}~g" 'src/common/settings_production.py'
+            - sed -i "s~_CLIENT_SYSTEM_CH_STATE_URL_~${_CLIENT_SYSTEM_CH_STATE_URL_}~g" 'src/common/settings_production.py'
+            - sed -i "s/_CLIENT_SYSTEM_BASE_PROTOCOL_/${_CLIENT_SYSTEM_BASE_PROTOCOL_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_CLIENT_SYSTEM_BASE_PORT_/${_CLIENT_SYSTEM_BASE_PORT_}/g" 'src/common/settings_production.py'
+            - sed -i "s~_INFURA_NODE_HOST_~${_INFURA_NODE_HOST_}~g" 'src/common/settings_production.py'
+            - sed -i "s/_INFURA_PROTOCOL_/${_INFURA_PROTOCOL_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_USE_INFURA_/${_USE_INFURA_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_SEND_CALLBACK_/${_SEND_CALLBACK_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_RUN_MONITOR_/${_RUN_MONITOR_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_SQLALCHEMY_DATABASE_HOST_/${_SQLALCHEMY_DATABASE_HOST_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_SQLALCHEMY_DATABASE_PORT_/${_SQLALCHEMY_DATABASE_PORT_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_SQLALCHEMY_DATABASE_DATABASE_/${_SQLALCHEMY_DATABASE_DATABASE_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_SQLALCHEMY_DATABASE_USER_/${_SQLALCHEMY_DATABASE_USER_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_SQLALCHEMY_DATABASE_PASSWORD_/${_SQLALCHEMY_DATABASE_PASSWORD_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_ITPS_SERVICE_ADDRESS_/${_ITPS_SERVICE_ADDRESS_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_ITPS_SERVICE_PRIVATE_KEY_/${_ITPS_SERVICE_PRIVATE_KEY_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_NODE_PROTOCOL_/${_NODE_PROTOCOL_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_NODE_PORT_/${_NODE_PORT_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_NODE_HOST_/${_NODE_HOST_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_CLIENT_SYSTEM_ADDRESS_/${_CLIENT_SYSTEM_ADDRESS_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_TRX_GRACETIME_/${_TRX_GRACETIME_}/g" 'src/common/settings_production.py'
+            - sed -i "s/ _GAS_PRICE_/${_GAS_PRICE_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_GAS_LIMIT_CHANNEL_CREATION_/${_GAS_LIMIT_CHANNEL_CREATION_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_GAS_LIMIT_WITHDRAW_/${_GAS_LIMIT_WITHDRAW_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_GAS_LIMIT_SETTLEMENT_/${_GAS_LIMIT_SETTLEMENT_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_GAS_LIMIT_TRANSFER_/${_GAS_LIMIT_TRANSFER_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_BC_MONITOR_INTERVAL_/${_BC_MONITOR_INTERVAL_}/g" 'src/common/settings_production.py'
+            - sed -i "s/_ADPCHANNEL_MANAGER_ADDRESS_/${_ADPCHANNEL_MANAGER_ADDRESS_}/g" 'src/common/settings_production.py'
+
+
+            - rm 'src/common/settings.py'
+            - mv 'src/common/settings_production.py' 'src/common/settings.py'
+            # Deploying an image built from pipelines
+            - docker build -t ${IMAGE_NAME_API} .
+            - docker build -t ${IMAGE_NAME_BIS} -f dockerfile-bis .
+            - eval $(aws ecr get-login --no-include-email --region us-east-1)
+            - docker push ${IMAGE_NAME_API}
+            - docker push ${IMAGE_NAME_BIS}
+            # Update ECS Service
+            - aws ecs update-service --cluster ${ECS_CLUSTER_NAME} --service ${ECS_SERVICE_NAME} --force-new-deployment
